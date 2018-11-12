@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="300dp"
+    android:background="#D3D3D3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25sp"
+        android:id="@+id/title"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:text="Add new user"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textFirst"
+        android:layout_below="@id/title"
+        android:text="First Name"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/firstName"
+        android:layout_toRightOf="@id/textFirst"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textSecond"
+        android:layout_below="@id/firstName"
+        android:text="Last Name"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/textSecond"/>
+
+</RelativeLayout>
